@@ -1,0 +1,17 @@
+---
+title: |
+ | Statistical Inference
+ | Simulation of the Exponential Distribution
+author: "Gabor Simon"
+output: 
+  pdf_document:
+          toc: true
+---
+
+
+## Loading and preprocessing the data
+```{r load_libraries, message = FALSE}
+  library("dplyr")
+  library("lubridate")
+  library("ggplot2")
+```
